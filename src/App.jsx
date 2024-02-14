@@ -1,35 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Form from "./components/Form";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      {/* <div style={{ color: '#f3f3f3' }} className="text-base font-normal leading-normal box-border font-sans m-0"> */}
+      <div style={{ color: '#f3f3f3', backgroundImage: 'linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7))' }} className="font-sans box-border font-normal text-base leading-5 bg-cover bg-center bg-gradient-to-br from-purple-800 via-purple-600 to-purple-800 m-0 pt-12">
+        <header>
+          <h1 className="text-center mb-1 font-normal text-3xl leading-tight">freeCodeCamp Survey Form</h1>
+          <p className="text-center italic text-base font-extralight drop-shadow-sm">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </header>
+        <Form />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
