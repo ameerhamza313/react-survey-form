@@ -3,7 +3,6 @@ import Form from "./components/Form";
 function App() {
   return (
     <>
-      {/* <div style={{ color: '#f3f3f3' }} className="text-base font-normal leading-normal box-border font-sans m-0"> */}
       <div style={{ color: '#f3f3f3', backgroundImage: 'linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7))' }} className="font-sans box-border font-normal text-base leading-5 bg-cover bg-center bg-gradient-to-br from-purple-800 via-purple-600 to-purple-800 m-0 pt-12">
         <header>
           <h1 className="text-center mb-2 font-normal text-2xl sm:text-3xl  leading-tight">freeCodeCamp Survey Form</h1>
