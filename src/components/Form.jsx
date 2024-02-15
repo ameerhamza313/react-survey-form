@@ -232,10 +232,9 @@ const Form = () => {
           </label>
           <textarea
             id="comments"
-            className="w-full p-2.5 mb-6 md:mt-2 md:min-h-32 resize-y rounded"
+            className="w-full p-2.5 mb-6 text-gray-900 md:mt-2 md:min-h-32 resize-y rounded"
             name="comment"
             placeholder="Enter your comment here..."
-            defaultValue=""
           />
         </div>
         <div className="form-group">
