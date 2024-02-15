@@ -76,7 +76,7 @@ const Form = () => {
                 defaultValue="definitely"
                 type="radio"
                 className="inline-block text-xs mr-2  min-h-5 min-w-5"
-                defaultChecked=""
+                defaultChecked
               />
               Definitely
             </label>
