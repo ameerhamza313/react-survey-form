@@ -13,7 +13,7 @@ const Form = () => {
             type="text"
             name="name"
             id="name"
-            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700 outline rounded"
+            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700  rounded"
             placeholder="Enter your name"
             required=""
           />
@@ -26,7 +26,7 @@ const Form = () => {
             type="email"
             name="email"
             id="email"
-            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700 outline rounded"
+            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700  rounded"
             placeholder="Enter your email"
             required=""
           />
@@ -41,7 +41,7 @@ const Form = () => {
             id="number"
             min={10}
             max={99}
-            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700 outline rounded"
+            className="w-full h-10 px-3 mb-4 sm:mb-5 md:mt-2 py-1.5 text-gray-700  rounded"
             placeholder="Age"
           />
         </div>
@@ -232,7 +232,7 @@ const Form = () => {
           </label>
           <textarea
             id="comments"
-            className="w-full p-2.5 mb-6 md:mt-2 resize-y rounded"
+            className="w-full p-2.5 mb-6 md:mt-2 md:min-h-32 resize-y rounded"
             name="comment"
             placeholder="Enter your comment here..."
             defaultValue=""
